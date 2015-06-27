@@ -1,0 +1,49 @@
+body {
+	font-family: Verdana;
+	margin: 0px;
+}
+#Presenta {
+	background-color: #cc0000;
+	padding: 3px;;
+	padding: 10px;
+	padding-left: 30px;
+	font-size: 150%; 
+	border-bottom: solid yellow 2px;
+}
+.menu {
+	text-align: center;
+	font-weight: bold;
+	background-color: #0099cc;
+	padding: 3px;
+	clear: both;
+}
+.menu a {
+	color: #222B25;
+	text-decoration: none;
+	margin-right: 25px;
+}
+#contenido {
+	overflow: auto;
+}
+#contenido h3{
+	color: red;
+	margin-bottom: 40px;
+}
+#contenido p{
+	color:#010101;
+	font-weight: bold;
+
+}
+
+
+
+img {
+	float: left;
+	margin: 25px;
+	border: solid red 3px;
+}
+#final  {
+	position: absolute;
+	bottom: 0px;
+	width:1360px;
+}
