@@ -1,47 +1,88 @@
 body {
 	font-family: Verdana;
 	margin: 0px;
+	background-image: url("vidrio.jpg");
 }
 #Presenta {
-	background-color: #cc0000;
 	padding: 3px;;
-	padding: 10px;
+	padding: 20px;
 	padding-left: 30px;
 	font-size: 150%; 
-	border-bottom: solid yellow 2px;
+	text-align: left;
+	background-color: green;
+
+}
+#Presenta p{
+	margin-top: 50px;
+	font-weight: bold;
+}
+#rojo {
+	background-color: #cc0000;
+	padding: 50px;
+}
+#azul {
+	background-color: #0099cc;
+	padding: 20px;
+}
+#amarillo{
+	background-color:#FDFD03;
+	padding: 20px;
+}
+#naranja {
+	background-color: #FDA712;
+	padding: 20px;
+}
+#violeta {
+	background-color: #FD12F5;
+	padding: 20px;
 }
 .menu {
 	text-align: center;
 	font-weight: bold;
-	background-color: #0099cc;
 	padding: 3px;
 	clear: both;
+	margin-top: 70px;
+	margin-bottom: 50px;
 }
 .menu a {
 	color: #222B25;
 	text-decoration: none;
 	margin-right: 25px;
+	border-radius: 20%;
 }
 #contenido {
 	overflow: auto;
+	background-color: green;
+	margin-top: 90px;
+	border-radius: 80%;
 }
 #contenido h3{
 	color: red;
 	margin-bottom: 40px;
+	text-align: center;
 }
 #contenido p{
 	color:#010101;
 	font-weight: bold;
-
+	text-align: center;
 }
-
-
-
-img {
+#imagen img {
 	float: left;
 	margin: 25px;
 	border: solid red 3px;
+	height: 300px;
+	width: 600px;
 }
+
+#Presenta img{
+	float: left;
+	margin-left: 455px;
+	border: solid red 3px;
+	max-width: 100px;
+	max-height:130px;
+	margin-top: 10px;
+}
+
 #final  {
 	position: absolute;
 	bottom: 0px;
